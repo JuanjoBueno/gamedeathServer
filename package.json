@@ -1,0 +1,21 @@
+{
+    "name": "gamedeathserver",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "build": "tsc",
+        "dev": "ts-node-dev src/index.ts"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "typescript": "^5.7.3",
+        "@types/node": "^18.19.70",
+        "ts-node": "^10.9.2",
+        "ts-node-dev": "^2.0.0"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "socket.io": "^4.8.1"
+    }
+}
